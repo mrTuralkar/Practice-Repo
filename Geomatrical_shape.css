@@ -1,0 +1,179 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header_section{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(74,74,79,1) 35%, rgba(255,255,255,1) 100%);
+}
+.header_section> div > h1 {
+    font-size: 60px;
+    transform: translateY(20px);
+    text-shadow: 0px 0px 5px white;
+    
+}
+
+.card > div{
+    width: 24.25%;
+    height: 300px;
+    background-color: black;
+    border: 1px solid black;
+    float:left;
+    margin: 2px;
+    padding: 2px;
+    
+}
+/* Square box css start */
+.square_1{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 10%;
+}
+
+.square_2{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+.square_3{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black; 
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+    box-shadow:0px 0px 20px 10px white;
+}
+.square_4{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black; 
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+    box-shadow:0px 0px 3px 3px white; 
+}
+.square_4:hover{
+    width: 250px;
+    height: 250px;
+    box-shadow:0px 0px 20px 15px white;
+    transition: 1s;
+    
+}
+
+/* square box css property end */
+
+
+/* Rectangle property */
+.rectangle_1{
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    margin: auto;
+    margin-top: 30%;
+
+}
+.rectangle_2{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(247, 84, 9);
+    margin: auto;
+    margin-top: 30%;
+    margin-left: 20%;
+    border-radius: 3px;
+    color: white;
+    font-size: larger;
+
+}
+
+.rectangle_3,.rectangle_4{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 30%;
+    margin-left: 3%;
+    border-radius: 50px;
+    color: white;
+    font-size: larger;
+    box-shadow: 0px 0px 2px 2px wheat;
+    padding-left: 10px;
+    color: black;
+
+}
+.rectangle_4:hover{
+    box-shadow: 0px 0px 4px 4px wheat;
+
+
+}
+
+/* Rectangle property end */
+.shape_1{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 100%;
+}
+
+.shape_2{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 100%;
+}
+
+.shape_3{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 20%;
+    border-bottom-left-radius: 30px;
+    font-size: 50px;
+
+
+}
+
+.shape_4{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 20%;
+    border-bottom-left-radius: 30px;
+    border-Top-Right-radius: 30px;
+
+    font-size: 50px;
+
+
+}
+
+
+
+
+
+
+
+
+
